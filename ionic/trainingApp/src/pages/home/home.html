@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h2>Welcome to Ionic!</h2>
+  <ion-list>
+    <ion-item *ngFor="let training of trainings | async">
+      <p>{{ training.title }}</p>
+      <img src="data:image/jpeg;base64,{{ training.banner }}"/>
+    </ion-item>
+  </ion-list>
+</ion-content>

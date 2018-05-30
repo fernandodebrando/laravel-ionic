@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1098153153898",
+    "firebase_url": "https://pushtraining-4328d.firebaseio.com",
+    "project_id": "pushtraining-4328d",
+    "storage_bucket": "pushtraining-4328d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1098153153898:android:764d2cb7da3280eb",
+        "android_client_info": {
+          "package_name": "io.ionic.starter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1098153153898-k5kpvp5g23a13gtsvboktpdgug5bra63.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "1098153153898-k5kpvp5g23a13gtsvboktpdgug5bra63.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD55RbCKGEjWazU9AwR0n5PgJmG9KbFLlw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
