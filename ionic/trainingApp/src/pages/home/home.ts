@@ -18,7 +18,7 @@ export class HomePage {
   trainings: Observable<Training[]>;
 
   constructor(public navCtrl: NavController, public httpClient: HttpClient) {
-    this.trainings = this.httpClient.get<Training[]>('http://localhost:8000/api/training')
+    this.trainings = this.httpClient.get<Training[]>('http://laravel-ionic.fernando.poa.br/api/training')
     this.trainings
     .subscribe(data => {
       console.log('my data: ', data);
